@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    Navbar
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#beranda">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portofolio">Portofolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#keahlian">Keahlian</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pengalaman">Pengalaman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hubungi">Hubungi Saya</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="beranda" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <h1>Halo, Saya <span class="highlight">Yulia Gita Permata Sari</span></h1>
+                        <p class="mb-4">Mahasiswa Teknik Informatika di Politeknik Negeri Jember</p>
+                        <div class="social-icons">  
+                            <a href="https://www.linkedin.com/in/yulia-gita-permata-sari?"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/gitaps__?igsh=MXZ5MHJlaDRhMjB5YQ=="><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/share/1BbQFKeEdN/"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <a href="#hubungi" class="btn btn-primary mt-4">Hubungi Saya</a>
+
+                        <a href="/assets/CV_Yulia Gita Permata Sari (2).pdf"                
+                            class="btn btn-outline-primary mt-4 ms-2"
+                            download="CV_Yulia_Gita_Permata.pdf"  
+                            target="_blank" rel="noopener">
+                             Download CV
+                         </a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="img/gito.jpg" alt="Profile Picture" class="img-fluid rounded-circle profile-img">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="tentang" class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tentang Saya</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/ygitap.jpg" alt="About Me" class="img-fluid about-img">
+                </div>
+                <div class="col-md-6">
+                    <h3>Front-end developer & UI/UX designer</h3>
+                    <p class="lead">Saya adalah seorang Mahasiswa Teknik Informatika yang tertarik pada bidang Front end Development dan UI/UX Designer .</p>
+                    <p>Saya berkomitmen untuk menciptakan pengalaman digital yang responsif dan intuitif, Selain keterampilan teknis dalam pengembangan antarmuka, saya juga berpengalaman dalam mengelola proyek secara efisien menggunakan Trello, memastikan setiap tugas terlaksana tepat waktu dan sesuai dengan tujuan yang telah ditetapkan.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <p><strong>Nama:</strong> Yulia Gita Permata Sari</p>
+                            <p><strong>Email:</strong> gita.permata.saryy@gmail.com</p>
+                            <p><strong>Telepon:</strong> +62 895 3663 56560</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Usia:</strong> 20 Tahun</p>
+                            <p><strong>Pendidikan:</strong> D4-Teknik Informatika</p>
+                            <p><strong>Lokasi:</strong> Nganjuk, Jawa Timur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portofolio" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Portofolio</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/bukuin.jpg" alt="Project 1" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4>BukuIn Kita </h4>
+                            <p>Aplikasi Desktop</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Lihat Detail</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/Pourchase Desktop App.png" alt="Project 2" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4>Pourchase</h4>
+                            <p>Aplikasi Desktop</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Lihat Detail</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/Bloodcare (3).png" alt="Project 3" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4>Bloodcare</h4>
+                            <p>Aplikasi Mobile</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Lihat Detail</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/Bloodcare (5).png" alt="Project 4" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4>BloodCare</h4>
+                            <p>Aplikasi Web</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Lihat Detail</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/Bibit Unggul Nganjuk (4).png" alt="Project 5" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4>Bibit Unggul Nganjuk</h4>
+                            <p>Aplikasi Mobile</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Lihat Detail</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item">
+                        <img src="img/GreenTrack (2).png" alt="Project 6" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h4>GreenTrack</h4>
+                            <p>Aplikasi Mobile</p>
+                            <!-- <a href="#" class="btn btn-sm btn-primary">Lihat Detail</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="keahlian" class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Keahlian</h2>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <h5>HTML & CSS <span class="float-end">90%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h5>UI/UX Design <span class="float-end">85%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h5>Flutter<span class="float-end">70%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-item">
+                        <h5>JavaScript <span class="float-end">75%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h5>PHP & MySQL <span class="float-end">70%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h5>Microsoft Office <span class="float-end">65%</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+<section id="pengalaman" class="section-padding bg-light">
+    <div class="container">
+        <div class="section-title">
+            <h2>Pengalaman</h2>
+            <div class="line"></div>
+        </div>
+        <div class="timeline">
+            <!-- Item 1 -->
+            <div class="timeline-item">
+                <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>UX Researcher(Bukuin Kita)</h4>
+                        <h5>Politeknik Negeri Jember-(PBL)</h5>
+                        <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Agustus - November 2023</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Menganalisis kebutuhan pengguna dan merancang desain UI/UX.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="timeline-item">
+                <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Scrum Master(Pourchase)</h4>
+                        <h5>Politeknik Negeri Jember-(PBL)</h5>
+                        <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Februari - Mei 2024</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Menyusun Backlog untuk tim desain UI/UX dan pengembang agar dapat berkolaborasi pada tiap fitur.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 3 -->
+            <div class="timeline-item">
+                <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Web Developer(BloodCare)</h4>
+                        <h5>Politeknik Negeri Jember-(PBL)</h5>
+                        <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> September - Desember 2024</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Mengembangkan situs web menggunakan PHP native, HTML, dan CSS, dengan fokus pada pembuatan fitur yang fungsional dan responsif.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 4 -->
+            <div class="timeline-item">
+                <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>UI/UX Designer(BloodCare)</h4>
+                        <h5>Politeknik Negeri Jember-(PBL)</h5>
+                        <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> September - Desember 2024</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Merancang alur pengguna, wireframe, dan prototipe untuk aplikasi mobile menggunakan Figma, dengan fokus pada pengalaman pengguna yang optimal.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 5 -->
+            <div class="timeline-item">
+                <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Front End Developer-Mobile(GreenTrack)</h4>
+                        <h5>Politeknik Negeri Jember-(PBL)</h5>
+                        <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Februari - Mei 2025</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Mengembangkan antarmuka yang responsif menggunakan flutter dan mengintegrasikan API serta mengelola state aplikasi.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 6 -->
+            <div class="timeline-item">
+                <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>UI/UX Designer-Mobile(GreenTrack)</h4>
+                        <h5>Politeknik Negeri Jember-(PBL)</h5>
+                        <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Februari - Mei 2025</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Mendesain antarmuka pengguna, membuat wireframe dan prototipe menggunakan Figma.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Item 7 -->
+            <div class="timeline-item">
+                <div class="timeline-badge"><i class="fas fa-briefcase"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>UI/UX Designer-Mobile(Bibit Unggul Nganjuk)</h4>
+                        <h5>Politeknik Negeri Jember-(PBL)</h5>
+                        <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Januari - Februari 2025</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Mendesain antarmuka yang intuitif, membuat wireframe dan prototipe menggunakan Figma.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Separator Clear Section -->
+    <div class="clear-section-break"></div>
+
+   <!-- Contact Section -->
+<section id="hubungi" class="section-padding bg-white">
+    <div class="container">
+        <div class="section-title">
+            <h2>Hubungi Saya</h2>
+            <div class="line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="row g-0">
+                <div class="col-md-5 contact-info-side">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="text">
+                                <h5>Lokasi</h5>
+                                <p>Nganjuk, Jawa Timur</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div class="text">
+                                <h5>Email</h5>
+                                <p>gita.permata.saryy@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-phone"></i></div>
+                            <div class="text">
+                                <h5>Telepon</h5>
+                                <p>+62 895 3663 56560</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="text">
+                                <h5>LinkedIn</h5>
+                                <p>Yulia Gita Permata Sari</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 contact-form-side">
+                    <form action="https://formsubmit.co/gita.permata.saryy@gmail.com" method="POST" class="contact-form">
+                        <!-- Tambahkan ini untuk melihat info pengirim lebih jelas -->
+                        <input type="hidden" name="_format" value="plain"> <!-- Format plain text, bukan HTML -->
+                        <input type="hidden" name="_template" value="box"> <!-- Format box mungkin lebih baik -->
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="thank-you.html">
+                        
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" name="name" class="form-control" placeholder="Nama Anda" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="email" class="form-control" placeholder="Email Anda" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" name="subject" class="form-control" placeholder="Subjek" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" class="form-control" rows="5" placeholder="Pesan Anda" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                            </div>
+                        </div>
+                    </form>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="social-icons mb-4">
+                        <!-- <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a> -->
+                    </div>
+                    <p>&copy; 2025 Portfolio Yulia Gita Permata Sari</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
